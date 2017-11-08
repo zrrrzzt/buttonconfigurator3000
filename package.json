@@ -45,12 +45,12 @@
     "dotenv": "production.env"
   },
   "devDependencies": {
-    "ava": "0.22.0",
-    "axios": "0.16.2",
-    "coveralls": "2.13.2",
-    "micro-dev": "1.2.3",
-    "nsp": "2.8.1",
-    "nyc": "11.2.1",
+    "ava": "0.23.0",
+    "axios": "0.17.0",
+    "coveralls": "3.0.0",
+    "micro-dev": "1.4.0",
+    "nsp": "3.1.0",
+    "nyc": "11.3.0",
     "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
@@ -58,7 +58,7 @@
     "cors": "2.8.4",
     "finalhandler": "1.1.0",
     "markdown-it": "8.4.0",
-    "micro": "9.0.0",
+    "micro": "9.0.1",
     "router": "1.3.2",
     "urlencoded-body-parser": "^2.0.1",
     "uuid": "^3.1.0"
