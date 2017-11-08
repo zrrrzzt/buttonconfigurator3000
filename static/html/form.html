@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ButtonConfigurator3000</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- load MUI -->
+    <link href="//cdn.muicss.com/mui-0.9.28/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.9.28/js/mui.min.js"></script>
+</head>
+<body>
+    <div class="mui-container">
+    <h1>ButtonConfigurator3000</h1>
+        <div class="mui-panel">
+            <p>This page will help you configure the buttons on your awesome <a href="http://nodeconfeubadge.org/" target="_blank">NodeConf EU Badge</a>.</p>
+            <p>At the moment you can assign a text and a nfc url for each button</p>
+            <p>Press the button and the text will show on your screen and the nfc will broadcast the url</p>
+            <p>Fill out the form, click generate code and you will be taken to the <a href="https://www.espruino.com/ide" target="_blank">Espruino IDE</a> to upload the code</p>
+        </div>
+    <form action="/generator" method="post" class="mui-form">
+        <legend>Button A</legend>
+        <div class="mui-textfield">
+            <input type="text" name="button-A-text">
+            <label>Text for button A</label>
+        </div>
+        <div class="mui-textfield">
+            <input type="text" name="button-A-url">
+            <label>URL for button A</label>
+        </div>
+        <legend>Button B</legend>
+        <div class="mui-textfield">
+            <input type="text" name="button-B-text">
+            <label>Text for button B</label>
+        </div>
+        <div class="mui-textfield">
+            <input type="text" name="button-B-url">
+            <label>URL for button B</label>
+        </div>
+        <legend>Button UP</legend>
+        <div class="mui-textfield">
+            <input type="text" name="button-U-text">
+            <label>Text for button UP</label>
+        </div>
+        <div class="mui-textfield">
+            <input type="text" name="button-U-url">
+            <label>URL for button UP</label>
+        </div>
+        <legend>Button DOWN</legend>
+        <div class="mui-textfield">
+            <input type="text" name="button-D-text">
+            <label>Text for button DOWN</label>
+        </div>
+        <div class="mui-textfield">
+            <input type="text" name="button-D-url">
+            <label>URL for button DOWN</label>
+        </div>
+        <legend>Button LEFT</legend>
+        <div class="mui-textfield">
+            <input type="text" name="button-L-text">
+            <label>Text for button LEFT</label>
+        </div>
+        <div class="mui-textfield">
+            <input type="text" name="button-L-url">
+            <label>URL for button LEFT</label>
+        </div>
+        <legend>Button LEFT</legend>
+        <div class="mui-textfield">
+            <input type="text" name="button-R-text">
+            <label>Text for button RIGHT</label>
+        </div>
+        <div class="mui-textfield">
+            <input type="text" placeholder="URL for button RIGHT" name="button-R-url">
+            <label>URL for button RIGHT</label>
+        </div>
+        <button type="submit" class="mui-btn mui-btn--raised">Generate code</button>
+    </form>
+    </div>
+</body>
+</html>
