@@ -1,4 +1,6 @@
 # buttonconfigurator3000
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/buttonconfigurator3000.svg)](https://greenkeeper.io/)
 Configurate buttons for your NodeConfEU badge
 
 ## License
