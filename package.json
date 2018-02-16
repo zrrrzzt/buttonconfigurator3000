@@ -61,6 +61,6 @@
     "micro": "9.1.0",
     "router": "1.3.2",
     "urlencoded-body-parser": "2.0.1",
-    "uuid": "3.1.0"
+    "uuid": "3.2.1"
   }
 }
