@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "buttonconfigurator3000",
+  "alias": [
+    "nodeconfeubadge.allthethings.win"
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "SITE_URL": "https://nodeconfeubadge.allthethings.win"
+  },
+  "builds": [
+    { "src": "/index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}

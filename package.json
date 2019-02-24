@@ -38,13 +38,6 @@
     "url": "https://github.com/zrrrzzt/buttonconfigurator3000/issues"
   },
   "homepage": "https://github.com/zrrrzzt/buttonconfigurator3000",
-  "now": {
-    "alias": [
-      "nodeconfeubadge.allthethings.win"
-    ],
-    "type": "npm",
-    "dotenv": "production.env"
-  },
   "devDependencies": {
     "ava": "1.2.1",
     "axios": "0.18.0",
