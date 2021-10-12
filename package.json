@@ -40,7 +40,7 @@
   "homepage": "https://github.com/zrrrzzt/buttonconfigurator3000",
   "devDependencies": {
     "ava": "3.15.0",
-    "axios": "0.22.0",
+    "axios": "0.23.0",
     "coveralls": "3.1.1",
     "micro-dev": "3.0.0",
     "nyc": "15.1.0",
