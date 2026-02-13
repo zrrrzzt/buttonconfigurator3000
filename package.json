@@ -48,7 +48,7 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "cors": "2.8.5",
+    "cors": "2.8.6",
     "finalhandler": "1.2.0",
     "markdown-it": "13.0.0",
     "micro": "9.3.4",
